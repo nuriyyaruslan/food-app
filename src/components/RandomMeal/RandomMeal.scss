@@ -1,0 +1,36 @@
+.random{
+    width:100%;
+    min-height:100vh;
+    background:#000;
+    color:#fff;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    
+    img{
+        width:50%;
+        display:block;
+        margin:auto;
+        border:1px solid #ccc;
+        margin-top:40px;
+    }
+
+    &-grid{
+        text-align: center;
+        padding-left:24px;
+        padding-right:24px;
+        button{
+            margin-top:15px;
+            padding:10px 20px;
+            border:1px solid #ccc;
+            outline:none;
+            cursor:pointer;
+            background:#000;
+            color:#fff;
+            font-size:18px;
+            border-radius:10px;
+            cursor: pointer;
+        }
+    }
+}
